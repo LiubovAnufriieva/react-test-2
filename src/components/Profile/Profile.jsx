@@ -1,5 +1,6 @@
 import css from "./Profile.module.css"
 
+
 function Profile({ name, tag, location, image, stats: { followers, views, likes} }) {
     return (
     <div className={css.container}>
