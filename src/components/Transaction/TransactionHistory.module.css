@@ -1,3 +1,7 @@
+.containerTable {
+  overflow: scroll;
+}
+
 .table {
     width: 500px;
     border-collapse: collapse;
@@ -19,7 +23,7 @@
     padding: 8px;
     padding-left: 60px;
     text-align: start;
-  
+    text-transform: capitalize;
     border: 1px solid black;
     border-collapse: collapse;
   }
@@ -28,3 +32,4 @@
     text-align: center;
     padding-left: 8px;
   }
+
